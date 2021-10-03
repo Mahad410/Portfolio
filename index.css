@@ -128,6 +128,11 @@ main {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     margin-bottom: 60px;
+    border: 4px solid #000;
+    border-radius: 28px;
+    padding: 20px;
+    box-shadow: inset -5px -4px 10px 1px #969696;
+    -webkit-box-shadow: inset -5px -4px 10px 1px #969696;
 }
 
 .h_image svg {
@@ -226,4 +231,25 @@ main {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.f_pic {
+    width: 80px;
+    height: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+.spotify {
+    background-image: url(icon.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
 }
