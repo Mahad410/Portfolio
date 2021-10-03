@@ -358,10 +358,8 @@ footer {
     background-image: url(twitter.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
 
@@ -369,10 +367,8 @@ footer {
     background-image: url(instagram.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
 
@@ -380,10 +376,8 @@ footer {
     background-image: url(github.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
 
@@ -391,10 +385,8 @@ footer {
     background-image: url(facebook.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
 
@@ -402,10 +394,8 @@ footer {
     background-image: url(facebook.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
 
@@ -413,9 +403,7 @@ footer {
     background-image: url(cdiscord.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 60px;
     height: 60px;
-    margin-left: 20px;
-    margin-bottom: 1px;
     filter: blur(5px);
 }
