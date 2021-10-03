@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', cursive;
     padding: 20px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -159,13 +160,13 @@ main {
 }
 
 .list ol {
-    padding: 40px 30px;
+    padding: 30px 30px;
     color: #000;
     font-size: 1.4rem;
 }
 
 .bars {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .f_bar {
@@ -242,7 +243,7 @@ main {
 }
 
 .grid {
-    margin-top: 20px;
+    margin: 20px;
     display: table;
     margin-left: auto;
     margin-right: auto;
@@ -262,6 +263,7 @@ main {
 
 .blur:hover {
     filter: blur(0px);
+    transition: all 300ms ease-in-out;
 }
 
 .spotify {
