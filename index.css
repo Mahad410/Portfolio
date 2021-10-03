@@ -229,16 +229,20 @@ main {
     }
 }
 
-.grid {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-content: center;
+.projects {
     border: 4px solid #ccc;
     border-radius: 28px;
     padding: 20px;
     box-shadow: inset -5px -4px 10px 1px #969696;
     -webkit-box-shadow: inset -5px -4px 10px 1px #969696;
+}
+
+.grid {
+    margin-top: 40px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .grid a {
