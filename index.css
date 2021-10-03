@@ -9,7 +9,6 @@ body {
     user-select: none;
     font-family: 'Roboto', cursive;
     padding: 20px;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -142,8 +141,8 @@ body {
 }
 
 .h_image svg {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     position: relative;
     float: right;
 }
