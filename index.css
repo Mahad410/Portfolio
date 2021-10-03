@@ -407,3 +407,12 @@ footer {
     height: 60px;
     filter: blur(5px);
 }
+
+.gmail {
+    background-image: url(gmail.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    filter: blur(5px);
+}
