@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,7 +73,7 @@
 
 
             <!-- skills box -->
-            <div class="skills">
+            <div class="skills" data-aos="zoom-in">
 
                 <h1>My Skills</h1>
                 <div class="con">
@@ -198,16 +199,16 @@
 
 
             <!-- Projects box -->
-            <div class="projects" id="projects">
+            <div class="projects" id="projects" data-aos="zoom-in">
                 <h1>
                     My Projects
                 </h1>
                 <div class="grid">
 
                     <!-- spotify -->
-                    <div class="f_pic">
+                    <div class="f_pic ">
                         <a href="https://mahad410.github.io/spotify" target="blank">
-                            <div class="spotify blur">
+                            <div class="spotify blur invert">
 
                             </div>
                             Spotify Login
@@ -299,7 +300,7 @@
 
         </main>
 
-        <footer>
+        <footer data-aos="zoom-in">
             <h1 id="contactme">
                 Contact me
             </h1>
@@ -321,9 +322,9 @@
                     </a>
                 </div>
 
-                <div class="f_pic ">
+                <div class="f_pic invert">
                     <a href="https://github.com/Mahad410" target="blank">
-                        <div class="github blur ">
+                        <div class="github blur">
 
                         </div>
                     </a>
@@ -356,6 +357,12 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
