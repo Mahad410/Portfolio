@@ -55,9 +55,6 @@ body {
     text-decoration: underline black;
 }
 
-
-/* moving name */
-
 #introcontainer {
     color: #999;
     font-size: 35px;
@@ -99,33 +96,6 @@ body {
 
 #flip div:last-child div {
     background: #DC143C;
-}
-
-@keyframes show {
-    0% {
-        margin-top: -270px;
-    }
-    5% {
-        margin-top: -180px;
-    }
-    33% {
-        margin-top: -180px;
-    }
-    38% {
-        margin-top: -90px;
-    }
-    66% {
-        margin-top: -90px;
-    }
-    71% {
-        margin-top: 0px;
-    }
-    99.99% {
-        margin-top: 0px;
-    }
-    100% {
-        margin-top: -270px;
-    }
 }
 
 .gr_container {
@@ -220,33 +190,6 @@ body {
     float: right;
     margin-right: -70px;
     font-size: 1.5rem;
-}
-
-@keyframes nine {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 90%;
-    }
-}
-
-@keyframes eight {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 80%;
-    }
-}
-
-@keyframes seven {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 70%;
-    }
 }
 
 .projects {
@@ -430,4 +373,58 @@ footer {
     width: 60px;
     height: 60px;
     filter: blur(5px);
+}
+
+@keyframes nine {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes eight {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes seven {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes show {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
 }
