@@ -167,7 +167,7 @@ body {
     height: 15px;
     background-color: #FFE066;
     animation: nine 3s ease-in-out;
-    animation-delay: .5s;
+    animation-delay: 1.5s;
 }
 
 .sbar {
@@ -175,7 +175,7 @@ body {
     height: 15px;
     background-color: #FFE066;
     animation: eight 3s ease-in-out;
-    animation-delay: .5s;
+    animation-delay: 1.5s;
 }
 
 .tbar {
@@ -183,7 +183,7 @@ body {
     height: 15px;
     background-color: #FFE066;
     animation: seven 3s ease-in-out;
-    animation-delay: .5s;
+    animation-delay: 1.5s;
 }
 
 .bar {
