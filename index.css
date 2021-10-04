@@ -109,8 +109,6 @@ body {
     margin-bottom: 60px;
     border-radius: 28px;
     padding: 50px;
-    /* box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .h_image svg {
@@ -130,8 +128,6 @@ body {
     margin-bottom: 60px;
     border-radius: 28px;
     padding: 50px;
-    /* box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .con {
@@ -201,8 +197,6 @@ body {
 .projects {
     border-radius: 28px;
     padding: 50px;
-    /* box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .grid {
@@ -298,8 +292,6 @@ body {
 
 footer {
     width: 100%;
-    /* box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
     box-sizing: border-box;
     border-radius: 28px;
     margin-top: 50px;
