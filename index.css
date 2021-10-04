@@ -90,11 +90,13 @@ body {
 }
 
 #flip div div {
-    background: #42c58a;
+    /* background: #42c58a; */
+    background: #E03616;
 }
 
 #flip div:first-child div {
-    background: #4ec7f3;
+    /* background: #4ec7f3;*/
+    background: #e6bb10;
 }
 
 #flip div:last-child div {
@@ -107,8 +109,8 @@ body {
     margin-bottom: 60px;
     border-radius: 28px;
     padding: 50px;
-    box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696;
+    /* box-shadow: 5px 4px 10px 1px #969696;
+    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .h_image svg {
@@ -128,8 +130,8 @@ body {
     margin-bottom: 60px;
     border-radius: 28px;
     padding: 50px;
-    box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696;
+    /* box-shadow: 5px 4px 10px 1px #969696;
+    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .con {
@@ -158,7 +160,7 @@ body {
 .f_bar {
     width: 50%;
     height: 15px;
-    background-color: #DC143C;
+    background-color: #E03616;
     float: right;
     margin-right: 80px;
     margin-bottom: 13px;
@@ -167,21 +169,21 @@ body {
 .ibar {
     width: 90%;
     height: 15px;
-    background-color: #42c58a;
+    background-color: #FFE066;
     animation: nine 2s ease-in-out;
 }
 
 .sbar {
     width: 80%;
     height: 15px;
-    background-color: #42c58a;
+    background-color: #FFE066;
     animation: eight 2s ease-in-out;
 }
 
 .tbar {
     width: 70%;
     height: 15px;
-    background-color: #42c58a;
+    background-color: #FFE066;
     animation: seven 2s ease-in-out;
 }
 
@@ -196,8 +198,8 @@ body {
 .projects {
     border-radius: 28px;
     padding: 50px;
-    box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696;
+    /* box-shadow: 5px 4px 10px 1px #969696;
+    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
 }
 
 .grid {
@@ -299,8 +301,8 @@ body {
 
 footer {
     width: 100%;
-    box-shadow: 5px 4px 10px 1px #969696;
-    -webkit-box-shadow: 5px 4px 10px 1px #969696;
+    /* box-shadow: 5px 4px 10px 1px #969696;
+    -webkit-box-shadow: 5px 4px 10px 1px #969696; */
     box-sizing: border-box;
     border-radius: 28px;
     margin-top: 50px;
@@ -315,7 +317,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 .instagram {
@@ -324,7 +325,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 .github {
@@ -333,7 +333,7 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px) invert(100);
+    filter: invert(100);
 }
 
 .facebook {
@@ -342,7 +342,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 .facebook {
@@ -351,7 +350,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 .cdiscord {
@@ -360,7 +358,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 .gmail {
@@ -369,7 +366,6 @@ footer {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    filter: blur(5px);
 }
 
 
