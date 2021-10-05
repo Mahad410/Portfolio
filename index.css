@@ -107,8 +107,8 @@
         }
         
         .wave {
-            text-decoration: underline wavy #FFE066;
-            -webkit-text-decoration: underline wavy #FFE066;
+            text-decoration: underline wavy #e6bb10;
+            -webkit-text-decoration: underline wavy #e6bb10;
             -webkit-text-underline-position: under;
             text-underline-position: under;
         }
