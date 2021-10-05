@@ -1,0 +1,1084 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-color: rgb(78, 78, 78);
+    color: white;
+    font-family: 'Permanent Marker';
+    user-select: none;
+}
+
+#cvr {
+    background-image: url(pics/cover.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    background-size: cover;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#dp {
+    background-image: url(pics/profile.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+}
+
+.bg1 {
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    width: 90%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dta h1 {
+    position: relative;
+    text-align: center;
+    top: 48px;
+    font-size: 50px;
+}
+
+.dta p {
+    position: relative;
+    text-align: center;
+    top: 55px;
+    font-size: 30px;
+}
+
+.qut p {
+    position: relative;
+    font-size: 25px;
+}
+
+.bg2 {
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    width: 90%;
+    padding: 30px 0px 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.lng {
+    position: relative;
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.l_container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.css {
+    border: 2px solid yellow;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.css p {
+    display: inline-block;
+    font-size: 30px;
+    color: yellow;
+    padding-right: 18px;
+}
+
+.html {
+    border: 2px solid aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.h_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: aqua;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.html p {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    padding-right: 18px;
+}
+
+.js {
+    border: 2px solid springgreen;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.js_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: springgreen;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.js p {
+    display: inline-block;
+    font-size: 30px;
+    color: springgreen;
+    padding-right: 18px;
+}
+
+.bs {
+    border: 2px solid orange;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.bs_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: orange;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.bs p {
+    display: inline-block;
+    font-size: 30px;
+    color: orange;
+    padding-right: 18px;
+}
+
+.lb {
+    border: 2px solid red;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.lb_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.lb p {
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+    padding-right: 18px;
+}
+
+.cpp {
+    border: 2px solid white;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.cpp_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.cpp p {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    padding-right: 18px;
+}
+
+.nt {
+    border: 2px solid burlywood;
+    margin-left: 0px;
+    margin-right: 5px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.nt_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: burlywood;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.nt p {
+    display: inline-block;
+    font-size: 30px;
+    color: burlywood;
+    padding-right: 18px;
+}
+
+.p_m {
+    border: 2px solid greenyellow;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.p_m_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.p_m p {
+    display: inline-block;
+    font-size: 30px;
+    color: greenyellow;
+    padding-right: 18px;
+}
+
+.mr {
+    border: 2px solid rgb(253, 176, 189);
+    margin-left: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.mr_crc {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: rgb(253, 176, 189);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.mr p {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(253, 176, 189);
+    padding-right: 18px;
+}
+
+.bg3 {
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    width: 90%;
+    padding: 30px 0px 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.abt p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.bg4 {
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+}
+
+.lnks a {
+    text-decoration: none;
+    color: white;
+}
+
+.lnks p {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#dp:hover {
+    transform: scale(1.2);
+}
+
+.lnks .spo:hover {
+    text-decoration: underline #22c45b;
+    text-decoration-style: wavy;
+    color: #22c45b;
+}
+
+.lnks .cs:hover {
+    text-decoration: underline #0175a2;
+    text-decoration-style: wavy;
+    color: #0175a2;
+}
+
+.lnks .gw:hover {
+    text-decoration: underline #FF0800;
+    text-decoration-style: wavy;
+    color: #FF0800;
+}
+
+.lnks .mc:hover {
+    text-decoration: underline pink;
+    text-decoration-style: wavy;
+    color: pink;
+}
+
+.bg5 {
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+}
+
+.abt a {
+    color: white;
+    text-decoration: none;
+}
+
+#gmail:hover {
+    text-decoration: underline yellow;
+    text-decoration-style: wavy;
+    color: yellow;
+}
+
+#github:hover {
+    text-decoration: underline orange;
+    text-decoration-style: wavy;
+    color: orange;
+}
+
+.bl:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: palegreen;
+}
+
+.hp:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: darkred;
+}
+
+.dip:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: cornflowerblue;
+}
+
+.dl:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: mediumspringgreen;
+}
+
+
+/* respomsiveness*/
+
+@media (max-width:320px) {
+    .bg1 {
+        height: 250px;
+        margin-bottom: 10px;
+    }
+    #dp {
+        width: 90px;
+        height: 90px;
+        top: 15px;
+    }
+    .dta h1 {
+        top: 20px;
+        font-size: 25px;
+    }
+    .dta p {
+        top: 22px;
+        font-size: 15px;
+    }
+    .qut p {
+        font-size: 13px;
+    }
+    .bg2 {
+        margin-bottom: 10px;
+    }
+    .lng {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .l_container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .css p {
+        font-size: 20px;
+        padding-right: 18px;
+    }
+    .html {
+        margin-left: 5px;
+    }
+    .h_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .html p {
+        font-size: 20px;
+    }
+    .js {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .js_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .js p {
+        font-size: 20px;
+    }
+    .bs {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .bs_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .bs p {
+        font-size: 20px;
+    }
+    .lb {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .lb_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .lb p {
+        font-size: 20px;
+    }
+    .cpp {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .cpp_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .cpp p {
+        font-size: 20px;
+    }
+    .nt {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .nt_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .nt p {
+        font-size: 20px;
+    }
+    .p_m {
+        margin-top: 8px;
+    }
+    .p_m_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .p_m p {
+        font-size: 20px;
+    }
+    .mr {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .mr_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .mr p {
+        font-size: 20px;
+    }
+    .bg3 {
+        margin-bottom: 10px;
+    }
+    .abt p {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 05px;
+        font-size: 20px;
+    }
+    .bg4 {
+        margin-bottom: 10px;
+    }
+    .lnks p {
+        margin-left: 25px;
+        margin-top: 05px;
+        font-size: 20px;
+    }
+    .bg4 {
+        margin-bottom: 10px;
+    }
+    .c_info p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:375px) and (min-width:350px) {
+    .bg1 {
+        height: 260px;
+        margin-bottom: 10px;
+    }
+    #dp {
+        width: 100px;
+        height: 100px;
+        top: 15px;
+    }
+    .dta h1 {
+        top: 20px;
+        font-size: 26px;
+    }
+    .dta p {
+        top: 22px;
+        font-size: 18px;
+    }
+    .qut p {
+        font-size: 15px;
+    }
+    .bg2 {
+        margin-bottom: 10px;
+    }
+    .lng {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .l_container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .css p {
+        font-size: 20px;
+        padding-right: 18px;
+    }
+    .html {
+        margin-left: 5px;
+    }
+    .h_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .html p {
+        font-size: 20px;
+    }
+    .js {
+        margin-left: 0px;
+        margin-top: 8px;
+        margin-right: 5px;
+    }
+    .js_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .js p {
+        font-size: 20px;
+    }
+    .bs {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .bs_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .bs p {
+        font-size: 20px;
+    }
+    .lb {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .lb_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .lb p {
+        font-size: 20px;
+    }
+    .cpp {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .cpp_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .cpp p {
+        font-size: 20px;
+    }
+    .nt {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .nt_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .nt p {
+        font-size: 20px;
+    }
+    .p_m {
+        margin-top: 8px;
+    }
+    .p_m_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .p_m p {
+        font-size: 20px;
+    }
+    .mr {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .mr_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .mr p {
+        font-size: 20px;
+    }
+    .bg3 {
+        margin-bottom: 10px;
+    }
+    .abt p {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 05px;
+        font-size: 20px;
+    }
+    .bg4 {
+        margin-bottom: 10px;
+    }
+    .lnks p {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .c_info p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:425px) and (min-width:376px) {
+    .bg1 {
+        height: 280px;
+        margin-bottom: 10px;
+    }
+    #dp {
+        width: 110px;
+        height: 110px;
+        top: 15px;
+    }
+    .dta h1 {
+        top: 20px;
+        font-size: 26px;
+    }
+    .dta p {
+        top: 22px;
+        font-size: 18px;
+    }
+    .qut p {
+        font-size: 15px;
+    }
+    .bg2 {
+        margin-bottom: 10px;
+    }
+    .lng {
+        font-size: 28px;
+        margin-left: 15px;
+    }
+    .l_container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .css p {
+        font-size: 22px;
+        padding-right: 18px;
+    }
+    .html {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .html p {
+        font-size: 22px;
+    }
+    .js {
+        margin-left: 0px;
+        margin-top: 8px;
+        margin-right: 5px;
+    }
+    .js_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .js p {
+        font-size: 22px;
+    }
+    .bs {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .bs_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .bs p {
+        font-size: 22px;
+    }
+    .lb {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .lb_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .lb p {
+        font-size: 22px;
+    }
+    .cpp {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .cpp_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .cpp p {
+        font-size: 22px;
+    }
+    .nt {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .nt_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .nt p {
+        font-size: 22px;
+    }
+    .p_m {
+        margin-top: 8px;
+        margin-right: 5px;
+    }
+    .p_m_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .p_m p {
+        font-size: 22px;
+    }
+    .mr {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .mr_crc {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 3px;
+    }
+    .mr p {
+        font-size: 22px;
+    }
+    .bg3 {
+        margin-bottom: 10px;
+    }
+    .abt p {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 22px;
+    }
+    .bg4 {
+        margin-bottom: 10px;
+    }
+    .lnks p {
+        margin-left: 25px;
+        font-size: 22px;
+    }
+    .c_info p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:771px) and (min-width:426px) {
+    .bg1 {
+        height: 380px;
+        margin-bottom: 10px;
+    }
+    #dp {
+        width: 140px;
+        height: 140px;
+        top: 40px;
+    }
+    .dta h1 {
+        top: 50px;
+        font-size: 40px;
+    }
+    .dta p {
+        top: 50px;
+        font-size: 30px;
+    }
+    .qut p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .bg2 {
+        margin-bottom: 10px;
+    }
+    .lng {
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    .l_container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .css p {
+        font-size: 30px;
+        padding-right: 18px;
+    }
+    .html {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .html p {
+        font-size: 30px;
+    }
+    .js {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .js_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .js p {
+        font-size: 30px;
+    }
+    .bs {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .bs_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .bs p {
+        font-size: 30px;
+    }
+    .lb {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .lb_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .lb p {
+        font-size: 30px;
+    }
+    .cpp {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .cpp_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .cpp p {
+        font-size: 30px;
+    }
+    .nt {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .nt_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .nt p {
+        font-size: 30px;
+    }
+    .p_m {
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .p_m_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .p_m p {
+        font-size: 30px;
+    }
+    .mr {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .mr_crc {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 4px;
+    }
+    .mr p {
+        font-size: 30px;
+    }
+    .bg3 {
+        margin-bottom: 10px;
+    }
+    .abt p {
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 28px;
+    }
+    .bg4 {
+        margin-bottom: 10px;
+    }
+    .lnks p {
+        margin-left: 25px;
+        font-size: 28px;
+    }
+    .c_info p {
+        font-size: 28px;
+    }
+}
