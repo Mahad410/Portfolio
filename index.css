@@ -744,7 +744,7 @@
             }
         }
         
-        @media screen and (min-width:376px) and (max-width:420px) {
+        @media screen and (min-width:376px) and (max-width:425px) {
             .f_pic {
                 margin: 21px;
             }
@@ -910,9 +910,9 @@
             }
         }
         
-        @media screen and (min-width:421px) and (max-width:475px) {
+        @media screen and (min-width:426px) and (max-width:475px) {
             .f_pic {
-                margin: 23px;
+                margin: 12px;
             }
             .main {
                 margin-top: 20px;
