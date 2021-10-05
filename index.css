@@ -412,7 +412,7 @@
         }
         /* responsiveness */
         
-        @media screen and (max-width:320px) {
+        @media only screen and (max-width:320px) {
             .main {
                 margin-top: 20px;
                 padding: 15px 10px;
@@ -578,7 +578,7 @@
             }
         }
         
-        @media screen and (max-width:375px) and (min-width:326px) {
+        @media only screen and (max-width:375px) and (min-width:326px) {
             .main {
                 margin-top: 20px;
                 padding: 15px 10px;
@@ -744,7 +744,7 @@
             }
         }
         
-        @media screen and (min-width:376px) and (max-width:425px) {
+        @media only screen and (min-width:376px) and (max-width:425px) {
             .f_pic {
                 margin: 21px;
             }
@@ -910,7 +910,7 @@
             }
         }
         
-        @media screen and (min-width:426px) and (max-width:475px) {
+        @media only screen and (min-width:426px) and (max-width:475px) {
             .f_pic {
                 margin: 12px;
             }
@@ -1076,7 +1076,7 @@
             }
         }
         
-        @media screen and (min-width:476px) and (max-width:550px) {
+        @media only screen and (min-width:476px) and (max-width:550px) {
             .f_pic {
                 margin: 10px;
             }
@@ -1242,7 +1242,7 @@
             }
         }
         
-        @media screen and (min-width:551px) and (max-width:900px) {
+        @media only screen and (min-width:551px) and (max-width:900px) {
             .f_pic {
                 margin: 10px;
             }
